@@ -50,3 +50,7 @@ local.properties
 # Ignore keystore files
 *.jks
 *.keystore
+
+# Ignore IDE files
+.idea/
+*.iml
