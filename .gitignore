@@ -54,3 +54,6 @@ local.properties
 # Ignore IDE files
 .idea/
 *.iml
+
+# Firebase config
+app/google-services.json
