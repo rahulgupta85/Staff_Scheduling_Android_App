@@ -1,0 +1,52 @@
+﻿# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local config (SDK path)
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+captures/
+.externalNativeBuild
+
+# Keystore (DO NOT commit your release keystore)
+*.jks
+*.keystore
+
+# Logs
+*.log
+
+# Misc
+.DS_Store
+.env
+
+.idea/
+*.iml
+
+# Ignore Firebase config
+app/google-services.json
+
+# Ignore IDE files
+.idea/
+*.iml
+
+# Ignore local config
+local.properties
+
+# Ignore keystore files
+*.jks
+*.keystore

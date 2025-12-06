@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 🌙 App Theme -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- 📅 Custom CalendarView Style -->
+    <style name="CustomCalendarView" parent="android:Widget.Material.CalendarView">
+        <!-- Remove row highlight -->
+        <item name="android:selectedWeekBackgroundColor">@android:color/transparent</item>
+        <item name="android:weekSeparatorLineColor">@android:color/transparent</item>
+
+        <!-- Text styles -->
+        <item name="android:dateTextAppearance">@style/CalendarDateText</item>
+        <item name="android:weekDayTextAppearance">@style/CalendarWeekDayText</item>
+
+        <!-- Date colors -->
+        <item name="android:focusedMonthDateColor">@color/black</item>
+        <item name="android:unfocusedMonthDateColor">@color/gray</item>
+    </style>
+
+    <!-- 📆 Date Text Style -->
+    <style name="CalendarDateText" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 🗓 Weekday Header Text -->
+    <style name="CalendarWeekDayText" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/purple_700</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>
