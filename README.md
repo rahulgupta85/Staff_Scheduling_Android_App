@@ -6,26 +6,24 @@ Built using **Java**, **XML**, and **Firebase**, the app delivers real-time upda
 - Login & Signup using Firebase Authentication  
 - Role-based access (Admin & Staff)
 
-### 📅 Staff Scheduling
+ 📅 Staff Scheduling
 - Admin can assign duties, shifts, and tasks  
 - Staff can view their assigned schedules  
 - Real-time schedule updates via Firebase
 
-### 🔔 Push Notifications (FCM)
+🔔 Push Notifications (FCM)
 - Individual staff notifications using **FCM tokens**  
 - Admin can send custom alerts  
 
-### 🧾 Data Management
+🧾 Data Management
 - All user & schedule data stored in Firebase Realtime Database  
 - Firebase Storage for uploading staff documents/images (if required)
 
-### 💡 Modern Design
+💡 Modern Design
 - Clean UI built with XML  
 - Smooth navigation using Activities & ViewModels
-
----
-
-## 🛠️ Tech Stack
+- 
+🛠️ Tech Stack
 
 | Component                  | Technology Used                         |
 |----------------------------|------------------------------------------|
@@ -35,18 +33,3 @@ Built using **Java**, **XML**, and **Firebase**, the app delivers real-time upda
 | Notifications              | Firebase Cloud Messaging (FCM)           |
 | Storage                    | Firebase Storage                         |
 | IDE                        | Android Studio                           |
-
----
-
-## 📁 Project Structure
-├── java/com/example/edutech/
-│ ├── activities/ # Screens / UI logic
-│ ├── utils/ # Helpers & notification utilities
-│ ├── MyFirebaseMessagingService.java
-│ └── authViewModel.java # Auth logic
-├── res/
-│ ├── layout/ # XML layouts
-│ ├── drawable/ # Icons & shapes
-│ └── values/ # Colors, strings, styles
-└── AndroidManifest.xml
-
